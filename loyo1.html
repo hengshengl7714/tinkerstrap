@@ -16,7 +16,81 @@
     </style>
   </head>
   <body>
-    
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Penguin</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Cheat sheet </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Another penguin</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">TFT</a>
+    </li>
+</ul>
+    <div id="TFT" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="10000">
+          <img src="cheat-sheet.png" class="d-block w-100" alt="TFT">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <img src="tft-penguin.jpg" class="d-block w-100" alt="penguin">
+        </div>
+        <div class="carousel-item" data-interval="10000">
+          <img src="penguin.png" class="d-block w-100" alt="another penguin">
+        </div>
+      </div>
+    <a class="carousel-control-prev" href="#TFT" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#TFT" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <p>
+      <a class="btn btn-success" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Like it? 
+      </a>
+      <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Don't like it 
+      </button>
+    </p>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      I don't care 
+    </div>
+  </div>
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Comp</th>
+      <th scope="col">Charcter</th>
+      <th scope="col">Effect</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Star Guardian</th>
+      <td>Star Guardians</td>
+      <td>60 mana</td>
+    </tr>
+    <tr>
+      <th scope="row">Chrono</th>
+      <td>Wukong</td>
+      <td>A lot of attack speed </td>
+    </tr>
+    <tr>
+      <th scope="row">Vanguard</th>
+      <td>Jayce</td>
+      <td>Super tanky</td>
+    </tr>
+  </tbody>
+</table>
     
     
     <!-- Optional JavaScript -->
